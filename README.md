@@ -433,27 +433,6 @@ Content-Type: application/json
 
 # Documentación de Despliegue - MCDS Capstone
 
-## Petición de ejemplo
-
-![Petición de ejemplo](img/request.png)
-
-
-## Visualización del inicio de flujo en Step Functions
-
-El siguiente diagrama muestra el workflow definido y una ejecución de ejemplo.
-
-![Step Function Workflow](img/StepFunctionWorkflow.png)
-
-![Step Function Execution](img/StepFunctionExecution.png)
-
-## Logs de CloudWatch
-
-Los logs de las funciones Lambda se pueden monitorear desde CloudWatch
-para verificar la ejecución correcta del flujo.
-
-![Logs Lambda CloudWatch](img/ExampleLogsLambda.png)
-
-
 ## Arquitectura e infraestructura
 
 El proyecto utiliza Terraform para provisionar todos los recursos en AWS.
